@@ -2,16 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>选项卡</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>color</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <style type="text/css">
+       @media only screen and (min-width: 320px) and (max-width: 600px){
+        body{
+            background-color:green;
+        }
+        p::after{
+            content:'手机';
+        }
+       }
+        @media only screen and (min-width: 601px) and (max-width: 959px){
+           body{
+                background-color:orange;
+           }
+           p::after{
+            content:'平板';
+           }
+        }
+        @media only screen and (min-width: 960px){
+            body {
+                background-color:blue;
+            }
+            p::after{
+                content:'电脑';
+            }
+        }
+    </style>
 </head>
 <body>
-    <ul>
-        <li>Chart.js</li>
-        <li>Grumble.js</li>
-        <li>Sco.js</li>
-        <li>Headroom.js</li>
-    </ul>
+<p>您使用在是:</p>
 
 </body>
 </html>
