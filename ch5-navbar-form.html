@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2>navbar包裹表单form</h2>
+            <p>需要应用navbar-form类</p>
+            <div class="navbar navbar-default">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">品牌</a>
+                </div>
+                <form action="" class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" name=""  placeholder="搜索" class="form-control">
+                        <button type="button" class="btn btn-default">提交</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <h2>将navbar-form与普通导航条融合在一起</h2>
+            <div class="navbar navbar-default">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">公司品牌名称</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">视频</a></li>
+                    <li><a href="#">音乐</a></li>
+                    <li><a href="#">图片</a></li>
+                    <li><a href="#">地图</a></li>
+                </ul>
+                <form action="" class="navbar-form">
+                    <div>
+                        <input type="search" placeholder="关键字" class="form-control" />
+                        <button type="button" class="btn btn-success btn-sm">搜索</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <h2>导航条中的下拉菜单</h2>
+            <div class="navbar navbar-default">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            微博<i class="caret"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">菜单1</a></li>
+                            <li><a href="#">菜单2</a></li>
+                            <li><a href="#">菜单3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <h2>不在form中的button，通过navbar-btn实现垂直居中</h2>
+            <div class="navbar navbar-default">
+                <button type="button" class="btn btn-danger navbar-btn">一个不在form中的button</button>
+            </div>
+        </div>
+        <div class="row">
+            <h2>导航条中的普通文本，应该包裹在.navbar-text中</h2>
+            <div class="navbar navbar-default">
+               <p class="navbar-text">php是世界上最美丽的语言</p>
+            </div>
+            <h2>导航条中的普通连接，应该包裹在navbar-link中，以获得合适的颜色</h2>
+            <div class="navbar navbar-default">
+                <a href="http://www.kaoyan.com" class="navbar-link navbar-text">考研加油站</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
