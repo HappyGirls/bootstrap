@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-06-11 15:17:23
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-06-11 15:59:53
+* @Last Modified time: 2018-06-11 17:59:29
 */
 header .navbar{
     min-height: 70px;
@@ -39,4 +39,79 @@ header .navbar{
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 5px 5px 10px rgba(255,0,0,0.3);
+}
+
+/* 控制Out Product中文样式 */
+.product-box p{
+    line-height: 1.8em;
+    text-indent: 2em;
+}
+.product-box{
+    margin-bottom: 15px;
+}
+
+/* 控制4列文字样式 */
+
+.skill-home span{
+    font-size: 42px;
+    color: #e48907;
+    text-align: center;
+    padding: 36px 0px 14px 0px;
+}
+
+.skill-home h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.skill-home a{
+    color:#0c1f5a;
+
+}
+.skill-home p{
+    line-height:1.8em;
+}
+/* 设置鼠标移动到矩形区域的Hover效果 */
+.skill-home .box:hover{
+    background-color:#e48907;
+    color:#fff;
+    cursor: pointer;
+
+}
+/* 设置鼠标移动到矩形区域以后字体图标的效果 */
+.skill-home .box:hover .iconfont{
+    color:#fff;
+}
+.skill-home .box{
+    border:1px solid #adadad;
+}
+
+/* 关于我们 */
+
+.aboutus img{
+    width:100%;
+}
+.aboutus{
+    padding:50px 0px 10px;
+    background-color: #f5f5f5;
+}
+.aboutus p{
+    line-height:1.6em;
+}
+
+/* 脚部代码 */
+footer{
+    padding:50px 0 0 0;
+    color:#949494;
+    background-color: #080808;
+
+}
+footer a{
+    color:#949494;
+}
+footer a:hover{
+    color:#eee;
+    text-decoration: none;
+}
+footer h5{
+    color:#fff;
 }
