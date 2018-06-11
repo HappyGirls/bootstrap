@@ -1,0 +1,42 @@
+/*
+* @Author: Marte
+* @Date:   2018-06-11 15:17:23
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-06-11 15:59:53
+*/
+header .navbar{
+    min-height: 70px;
+    padding:20px 0px;
+}
+
+/* 解决手机端bug */
+@media only screen and (max-width:768px){
+    header .navbar-collapse ul.navbar-nav{
+        width:100%;
+        margin:0 auto;
+    }
+    .flexslider .flex-caption{
+        display:none;
+    }
+}
+/* 解决导航条中的active样式 */
+
+.navbar-nav .active a{
+    border:1px solid #e48907;
+    background: none !important; /* 给最高级 */
+}
+
+/* 轮播样式 */
+.flex-caption{
+    color:#fff;
+    background-color: transparent;
+    position: absolute;
+    top:160px;
+    left:450px;
+}
+.flex-caption h3{
+    font-size:40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px rgba(255,0,0,0.3);
+}
